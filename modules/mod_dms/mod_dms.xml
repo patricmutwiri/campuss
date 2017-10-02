@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.7/module-install.dtd">
+<extension type="module" version="1.7.0" client="site" method="upgrade">
+	<name>DMS Category, Thumbnail Layout</name>
+	<author>www.rmisos.net</author>
+	<creationDate>October 2008</creationDate>
+	<copyright>rmisOS (C) 2013</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<authorEmail>daryl@rmisos.net</authorEmail>
+	<authorUrl>http://www.rmisos.net</authorUrl>
+	<version>1.2.1</version>
+	<description>Documents and images are displayed as icons</description>
+	<files folder="/modules/mod_dms">
+		<filename module="mod_dms">mod_dms.php</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+	</files>	
+	<params addpath="/administrator/components/com_dms/elements">
+		<param name="set" type="hidden" default="0" />
+		<param name="cat" type="hidden" default="0" />
+		<param name="set" type="setcat" default="0" label="Section" description="Section and Category..." />
+		<param name="ord" type="text" size="7" maxlength="6" default="asc" label="Order" description="select either 'asc' ascending or 'desc' descending" />
+	</params>
+	<config>
+		<fields name="params">
+			<fieldset name="params" label="DMS">
+				<field name="cat" extension="com_content" type="category" default="0" label="Category" description="Select category" />
+				<field name="ord" type="list" size="1" default="asc" label="Order" description="select either 'asc' ascending or 'desc' descending">
+					<option value="asc">Ascending</option>
+					<option value="desc">Descending</option>
+				</field>
+				<field name="ordcol" type="list" size="1" default="doc_title" label="by column" description="select column to order by. Can be doc_title, file_name, doc_location, catid, doc_type or viewed">
+					<option value="doc_title">Document Title</option>
+					<option value="file_name">File Name</option>
+					<option value="doc_location">File Location</option>
+					<option value="catid">Category</option>
+					<option value="doc_type">Document Type</option>
+					<option value="viewed">Number of Downloads</option>
+				</field>
+				<field name="tips" type="list" default="yes" label="Show tips?" description="Show the MooTips hover over tips or not">
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</field>
+				<field name="permicons" type="list" default="no" label="Show permission icons?" description="Show the permission icons or not">
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

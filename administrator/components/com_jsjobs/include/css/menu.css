@@ -1,0 +1,13 @@
+div#jsjobs-wrapper div#jsjobs-menu {position: absolute;width:65px;top:0px;left:0px; height: 100%; display: inline-block; z-index: 25;}
+div#jsjobs-wrapper div#jsjobs-menu div#js-tk-links{width: 100%;float: left;padding-bottom: 41px;}
+div#jsjobs-wrapper div#jsjobs-menu div#js-tk-links div.js-divlink a:hover{color: #ffffff;}
+div#jsjobs-wrapper div#jsjobs-menu div#js-tk-links .js-divlink{width: 100%;display: inline-block;background: #2B303B;}
+div#jsjobs-wrapper div#jsjobs-menu div#js-tk-links .js-divlink a{text-decoration: none;color: #acaeb2;font-size: 15px;}
+div#jsjobs-wrapper div#jsjobs-menu div#js-tk-links .js-divlink img{width: 65px;height: auto; padding:0px 10px 5px 10px;}
+div#jsjobs-wrapper div#jsjobs-menu div#js-tk-links .js-divlink a.js-parent,a.js-parent2{background: none repeat scroll 0 0 #21252d;display: none;float: right;height: 40px;padding: 0px 10px;text-decoration:none;width:215px;}
+div#jsjobs-wrapper div#jsjobs-menu div#js-tk-links .js-divlink a.js-parent span.text,a.js-parent2 span.text{color: #acaeb2;float: right;font-size: 15px;height: 40px;width:100%;border-bottom: 2px solid #242831;line-height: 40px;}
+div#jsjobs-wrapper div#jsjobs-menu div#js-tk-links .js-divlink a.js-parent span.text:hover{color:#ffffff;}
+div#jsjobs-wrapper div#jsjobs-menu div#js-tk-links .js-divlink a.js-parent span.text img{float: right; width: auto; height: auto; padding-top: 9px;margin-right:-5px;}
+div#jsjobs-wrapper div#jsjobs-menu div#js-tk-links div.js-innerlink a.js-child{display: none;}
+div#jsjobs-wrapper div#jsjobs-menu div#js-tk-links div.js-innerlink a.js-child{background: none repeat scroll 0 0 #21252d;margin-left: 65px; padding: 8px 10px;}
+div#jsjobs-wrapper div#jsjobs-menu div#js-tk-links div.js-innerlink a.js-child span.text{display: block;font-size: 12px;font-weight: normal;border-bottom: 2px solid #242831;}

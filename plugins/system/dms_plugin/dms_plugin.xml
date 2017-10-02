@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.5" type="plugin" group="system" method="upgrade">
+	<name>System - DMS - Dock Box</name>
+	<author>www.rmisos.net</author>
+	<creationDate>September 2008</creationDate>
+	<copyright>Copyright (C) 2008 rmisOS</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<authorEmail>daryl@rmisos.net</authorEmail>
+	<authorUrl>www.rmisos.net</authorUrl>
+	<version>1.5.2</version>
+	<description>Inserts the DMS popup where requested</description>
+	<files folder="plugins/system/dms_plugin">
+		<filename plugin="dms_plugin">dms_plugin.php</filename>
+		<filename>dms_plugin.xml</filename>
+		<filename>index.html</filename>
+	</files>
+</extension>

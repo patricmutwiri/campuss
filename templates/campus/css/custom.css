@@ -1,0 +1,44 @@
+div.jsn-modulecontainer ul.menu-mainmenu > li > a {
+	text-transform:lowercase
+}
+#jsn-logo-desktop {
+    max-height: 50px;
+}
+#jsn-brand a:hover {
+    color: red;
+}
+#jsn-menu {
+    background-color: #53236F;
+}
+.well{
+	background: transparent;
+	border-radius: 0;
+}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+	border-radius: 0;
+}
+a{
+	border-radius: 0!important;
+}
+.btn{
+	border-radius: 0
+}
+.btn-primary {
+	background: #41BDDF;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled]{
+	background:#53236F;
+}
+.jsn-modulecontainer #login-form input {
+	width: auto;
+}
+ul.jsn-pagination > span, ul.jsn-pagination > a, ul.jsn-pagination li.navigation-page span, ul.jsn-pagination li.navigation-page a,
+.input-prepend.input-append .add-on:first-child, .input-prepend.input-append .btn:first-child{
+	border-radius: 0
+}
+.readon, p.readmore a{
+	background: #41BDDF;
+}
+a.readon:hover, .readmore a:hover{
+	background: #53236F
+}

@@ -1,0 +1,2 @@
+#DMS prevent direct access to your files
+deny from all

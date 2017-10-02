@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component"
+           version="3.4"
+           method="upgrade">
+
+	<name>COM_DOWNLOADMANAGER</name>
+	<!-- The following elements are optional and free of formatting constraints -->
+	<creationDate>October 2015</creationDate>
+	<author>Script Eden</author>
+	<authorEmail>scripteden@gmail.com</authorEmail>
+	<authorUrl>http://scripteden.com</authorUrl>
+	<copyright>Copyright (c) Script Eden</copyright>
+	<license>GPL</license>
+	<!--  The version string is recorded in the components table -->
+	<version>1.2.0</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>Manage and Control File Downloads From Joomla Site</description>
+
+	<install>
+  		<sql>
+    		<file charset="utf8" driver="mysql">sql/install.mysql.utf8.sql</file>
+  		</sql>
+	</install>
+
+
+	<files folder="site">
+        <folder>controllers</folder>
+            <folder>bootstrap</folder>
+            <folder>models</folder>
+            <folder>assets</folder>
+            <folder>views</folder>
+            <folder>helpers</folder>
+		<filename>index.html</filename>
+		<filename>downloadmanager.php</filename>
+		<filename>controller.php</filename>
+		<filename>router.php</filename>
+	</files>
+
+
+
+	<administration>
+
+        <menu link="option=com_downloadmanager">COM_DOWNLOADMANAGER</menu>
+
+        <files folder="admin">
+            <folder>controllers</folder>
+            <folder>bootstrap</folder>
+            <folder>assets</folder>
+            <folder>models</folder>
+            <folder>views</folder>
+            <folder>helpers</folder>
+            <folder>languages</folder>
+            <folder>sql</folder>
+            <filename>downloadmanager.php</filename>
+            <filename>index.html</filename>
+            <filename>htaccess.txt</filename>
+        </files>
+        <languages folder="admin">
+            <language tag="en-GB">languages/en-GB/en-GB.com_downloadmanager.ini</language>
+            <language tag="en-GB">languages/en-GB/en-GB.com_downloadmanager.sys.ini</language>
+        </languages>
+	</administration>
+
+</extension>
